@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: tutorial-01-viktor
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn mysite.wsgi:application
