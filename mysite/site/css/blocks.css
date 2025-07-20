@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(10, 75, 51);
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+div {
+    position: fixed;
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+    border: 5px solid orange;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    border: 5px solid green;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    border: 5px solid yellow;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    border: 5px solid blue;
+}
+
+span {
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.top-left span {
+    color: red;
+    right: 10px;
+    bottom: 10px;
+}
+
+.top-right span {
+    color: blue;
+    left: 10px;
+    top: 10px;
+}
+
+.bottom-left span {
+    color: blue;
+    right: 10px;
+    top: 10px;
+}
+
+.bottom-right span {
+    color: orange;
+    left: 10px;
+    top: 10px;
+}
